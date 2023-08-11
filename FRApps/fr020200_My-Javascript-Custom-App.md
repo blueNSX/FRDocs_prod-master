@@ -46,7 +46,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 </div>
 </details>
 
-  <details><summary><b style="font-size:24px;">Client2 JavaScript Apps</b></summary>
+<b style="font-size:24px;">Client2 JavaScript Apps</b>
 
   - ### [c20. Simple JavaScript onClick Samples](client2/c20_background-and-purposes/README.md)
     A few HTML onClick functions using DOM and JQuery.
@@ -71,7 +71,6 @@ Hover over the snippet and click copy, then paste as appropriate.
 
   -
 
-</details>
 
 
 
