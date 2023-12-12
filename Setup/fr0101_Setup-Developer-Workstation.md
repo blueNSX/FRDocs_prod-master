@@ -713,14 +713,14 @@ code .
 ![VSCode9a](./images/fr0101-08_VSCode9a.png "VSCode9a")
 
 ----
-### 9. Markdown Preview test 0:05
+### 9. Markdown Preview Test 0:05
 ----
 #### 1.  Open MyProject in VSCode and click on the ReadMe.md file and add these lines:
 
 ```
     1. My first update was changed locally.
 
-    #### 2. I previewed it in VSCode and Chrome.
+    2. I previewed it in VSCode and Chrome.
 ```
 
 ![Markdown-Preview](./images/fr0101-09_Markdown-Preview.png "Markdown-Preview")
@@ -760,10 +760,12 @@ Added Workspace and Updated Readme.md
 
 ![Github-always](./images/fr0101-10_Github-always.png "Github-always") 
 
+--- Fix needed show Commit Button
 #### 4. Click on the Commit checkmark above the Message textbox
 
 ![Github-push-2](./images/fr0101-10_Github-push-2.png "Github-push-2")
 
+--- Fix needs picture of Yes not No
 #### 5. If this shows then, Select Yes at the Git fetch box
 
 ![Github-no](./images/fr0101-10_Github-no.png "Github-no")
@@ -788,6 +790,7 @@ Added Workspace and Updated Readme.md
 
 ![Github-push-5](./images/fr0101-10_Github-push-5.png "Github-push-5")
 
+--- Fix needed Committ Changes Button has moved new pict
 #### 9. Commit changes
 
 - Go to the bottom of the edit page to the Commit Changes section.
@@ -812,6 +815,8 @@ Update README.md added 3. and 4.
 
 ![Github-push-8](./images/fr0101-10_Github-push-8.png "Github-push-8")
 
+
+--- Fix needed show picture of push / pull alert see Snagit
 ----
 ### 11. Install Node Version Selector for Windows 0:05
 
@@ -860,22 +865,24 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
  nvs menu
 ```
 
+--- Fix needed new pict of versions see snagit
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-6.png "Nodejs-install-check")
 
 - Add and use the latest EVEN Node Version i.e. 18
 
 ```
-    nvs add 18
+    nvs add 20
 ```
 ```
-    nvs use 18
+    nvs use 20
 ```
 ```    
     nvs link
 ```
 
-- nvs link sets version 18 to default
+- nvs link sets version 20 to default
 
+--- Fix Needed new picture
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-3.png "Nodejs-install-check")
 
 
@@ -888,6 +895,7 @@ node --version
 npm --version
 ```
 
+--- Fix Needed new picture
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-4.png "Nodejs-install-check")
 
 - then close Windows Command window
@@ -903,6 +911,7 @@ dev.mysql.com/downloads
 
 - then click: MySql Installer for Windows
 
+--- Fix needed new pict Snagit
 ![MySQL-installer](./images/fr0101-12_MySQL-installer.png "MySQL-installer")
 
 
@@ -914,6 +923,7 @@ dev.mysql.com/downloads
   </div>
 </div>
 
+--- Fix needed new pict Snagit
 ![MySQL-community](./images/fr0101-12_MySQL-community.png "MySQL-community")
 
 #### 3. Click on "No thanks, just start my download"
@@ -926,8 +936,9 @@ dev.mysql.com/downloads
 
 ![MySQL-custom](./images/fr0101-12_MySQL-mandatory.png "MySQL-custom")
 
-#### 4. Choose Setup Type: Custom
+#### 4. Choose Setup Type: Full
 
+--- Fix needed new pict Snagit
 ![MySQL-custom](./images/fr0101-12_MySQL-custom.png "MySQL-custom")
 
 #### 5. Select Products 
@@ -948,6 +959,7 @@ dev.mysql.com/downloads
 
 - your product will be shown in the Products to be Installed column.
 
+--- Fix needed new pict Snagit
 ![MySQL-select-products](./images/fr0101-12_MySQL-select-products.png "MySQL-select-products")
 
 ![MySQL-select-products-1](./images/fr0101-12_MySQL-select-products-1.png "MySQL-select-products-1")
@@ -956,6 +968,7 @@ dev.mysql.com/downloads
 
 #### 7. Product Configuration
 
+--- Fix needed new pict Snagit
 ![MySQL-product-configuration](./images/fr0101-12_MySQL-product-configuration.png "MySQL-product-configuration")
 
 ![MySQL-product-configuration-1](./images/fr0101-12_MySQL-product-configuration-1.png "MySQL-product-configuration-1")
