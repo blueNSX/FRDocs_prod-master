@@ -623,4 +623,136 @@ Already downloaded: /Users/btroutma/Library/Caches/Homebrew/downloads/ee5843c604
 patching file crypto/x509/by_file.c
 ==> perl ./Configure --prefix=/usr/local/Cellar/openssl@3/3.2.0_1 --openssldir=/
 ==> make
+==> make install MANDIR=/usr/local/Cellar/openssl@3/3.2.0_1/share/man MANSUFFIX=
+==> make test
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+######################################################################### 100.0%
+🍺  /usr/local/Cellar/openssl@3/3.2.0_1: 6,798 files, 32.5MB, built in 35 minutes 20 seconds
+==> Installing python@3.11 dependency: readline
+==> Patching
+==> Applying readline82-001
+patching file nls.c
+patching file patchlevel
+==> Applying readline82-002
+patching file display.c
+patching file patchlevel
+==> Applying readline82-003
+patching file colors.c
+patching file patchlevel
+==> Applying readline82-004
+patching file input.c
+patching file patchlevel
+==> Applying readline82-005
+patching file callback.c
+patching file patchlevel
+==> Applying readline82-006
+patching file input.c
+Hunk #1 succeeded at 805 (offset -7 lines).
+Hunk #2 succeeded at 816 (offset -7 lines).
+Hunk #3 succeeded at 895 (offset -7 lines).
+Hunk #4 succeeded at 938 (offset -7 lines).
+patching file patchlevel
+==> Applying readline82-007
+patching file display.c
+Hunk #1 succeeded at 3391 (offset -3 lines).
+patching file patchlevel
+==> ./configure --with-curses
+==> make install SHLIB_LIBS=-lcurses
+🍺  /usr/local/Cellar/readline/8.2.7: 50 files, 1.7MB, built in 1 minute
+==> Installing python@3.11 dependency: sqlite
+==> ./configure --enable-dynamic-extensions --enable-readline --disable-editline
+==> make install
+🍺  /usr/local/Cellar/sqlite/3.44.2: 11 files, 4.7MB, built in 3 minutes 19 seconds
+==> Installing python@3.11 dependency: xz
+==> ./configure --disable-silent-rules
+==> make check
+==> make install
+🍺  /usr/local/Cellar/xz/5.4.5: 163 files, 2.6MB, built in 1 minute 50 seconds
+==> Installing python@3.11
+==> Patching
+==> Applying 3.11-sysconfig.diff
+patching file Lib/sysconfig.py
+==> Applying 3.10-distutils-scheme.diff
+patching file Lib/distutils/command/install.py
+==> Applying 96d015e375135e5ebc387a55ed838d00d963dc8a.patch
+patching file Modules/readline.c
+patching file configure
+patching file configure.ac
+patching file pyconfig.h.in
+==> ./configure --enable-ipv6 --datarootdir=/usr/local/Cellar/python@3.11/3.11.6
+==> make
+==> make install PYTHONAPPSDIR=/usr/local/Cellar/python@3.11/3.11.6_1
+==> make frameworkinstallextras PYTHONAPPSDIR=/usr/local/Cellar/python@3.11/3.11
+==> /usr/local/Cellar/python@3.11/3.11.6_1/bin/python3.11 -m venv /private/tmp/p
+==> /private/tmp/pythonA3.11-20231211-94453-ez3p14/Python-3.11.6/whl_build/bin/p
+==> /private/tmp/pythonA3.11-20231211-94453-ez3p14/Python-3.11.6/whl_build/bin/p
+==> /private/tmp/pythonA3.11-20231211-94453-ez3p14/Python-3.11.6/whl_build/bin/p
+==> /private/tmp/pythonA3.11-20231211-94453-ez3p14/Python-3.11.6/whl_build/bin/p
+==> /private/tmp/pythonA3.11-20231211-94453-ez3p14/Python-3.11.6/whl_build/bin/p
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+######################################################################### 100.0%
+==> /usr/local/Cellar/python@3.11/3.11.6_1/bin/python3.11 -Im ensurepip
+==> /usr/local/Cellar/python@3.11/3.11.6_1/bin/python3.11 -Im pip install -v --n
+==> Caveats
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.11/site-packages
+
+tkinter is no longer included with this formula, but it is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /usr/local/Cellar/python@3.11/3.11.6_1: 8,329 files, 196.9MB, built in 21 minutes 43 seconds
+==> Running `brew cleanup python@3.11`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/btroutma/Library/Caches/Homebrew/python@3.11--flit-core--3.9.0.tar.gz... (40.9KB)
+Removing: /Users/btroutma/Library/Caches/Homebrew/python@3.11--patch--2164a7ba4fd7b934514e87681908bb3e36cfd28ba53511ea631c6e24aa356a21.patch... (3.0KB)
+Removing: /Users/btroutma/Library/Caches/Homebrew/python@3.11--patch--8bfe417c815da4ca2c0a2457ce7ef81bc9dae310e20e4fb36235901ea4be1658.diff... (1.8KB)
+Removing: /Users/btroutma/Library/Caches/Homebrew/python@3.11--patch--d1a29b3c9ecf8aecd65e1e54efc42fb1422b2f5d05cba0c747178f4ef8a69683.diff... (637B)
+Removing: /Users/btroutma/Library/Caches/Homebrew/python@3.11--wheel--0.41.3.tar.gz... (96.6KB)
+==> Caveats
+==> python@3.11
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.11/site-packages
+
+tkinter is no longer included with this formula, but it is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+btroutma@MacBook-Pro browser-bert % poetry
+zsh: command not found: poetry
+btroutma@MacBook-Pro browser-bert % poetry install
 
